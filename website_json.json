@@ -1,0 +1,230 @@
+{
+    "site": {
+      "title": "Data Scientist Portfolio | AI Expert | Trilok Nath",
+      "favicon": "portfolio_media/favicon.ico"
+    },
+    "hero": {
+      "badge": "Open for opportunities",
+      "name": "Trilok Nath",
+      "terminal_description": "With 6+ years of experience in Data Science and AI Engineering, I specialize in building intelligent systems that solve real-world business problems through advanced analytics and machine learning.",
+      "resume_pdf_url": "C:/Users/003EPO744/Downloads/Trilok Nath CV.pdf"
+    },
+    "about": {
+      "profile_initials": "TN",
+      "experience_years": "6+",
+      "location": "Gurgaon, India",
+      "role": "Data Scientist",
+      "company": "IBM",
+      "bio_intro": "I am <a href=\"#\" class=\"text-highlight\">Trilok Nath</a>, a results-driven Data Scientist with over 6 years of experience in software development and data science. Currently working at IBM in Gurgaon, I specialize in <span class=\"text-highlight\">Generative AI, LLMs, Agents, Multimodality, Retrieval-Augmented Generation (RAG)</span>, and other cutting-edge technologies.",
+      "bio_impact": "My professional journey is defined by delivering <span class=\"text-highlight\">high-impact solutions</span> that drive business transformation. At IBM, I've:",
+      "achievements": [
+        {
+          "description": "Led the development of an <strong>automated Content Generation System</strong> that reduced regulatory approval document processing time by <span class=\"metric\">80%</span>"
+        },
+        {
+          "description": "Contributed to a <strong>Chat Virtual Agent</strong> that enhanced digital self-service capabilities"
+        },
+        {
+          "description": "Co-developed a <strong>Generative AI solution</strong> that increased order placement efficiency by <span class=\"metric\">25%</span>"
+        }
+      ],
+      "bio_prior": "Prior to IBM, I:",
+      "prior_achievements": [
+        {
+          "description": "Engineered connectors at <strong>Webkul Software</strong> that reduced manual data entry time by <span class=\"metric\">50%</span>"
+        },
+        {
+          "description": "Developed web applications at <strong>Chadha Industries</strong> that reduced operational costs by <span class=\"metric\">20%</span>"
+        }
+      ],
+      "awards": [
+        {
+          "name": "IBM Entrepreneur Award",
+          "year": "2024"
+        },
+        {
+          "name": "IBMer Appreciation",
+          "year": "2023"
+        }
+      ],
+      "skills": {
+        "ai_ml": [
+          "Large Language Models",
+          "Generative AI",
+          "RAG",
+          "Multimodality",
+          "Langchain",
+          "Autogen"
+        ],
+        "platforms_tools": [
+          "WatsonX.ai",
+          "MLflow",
+          "Vector Stores",
+          "Azure",
+          "GCP"
+        ],
+        "programming_data": [
+          "Python",
+          "SQL",
+          "PySpark",
+          "API Development"
+        ],
+         "certifications": [
+          "Microsoft AZ-900",
+          "Microsoft AI-900",
+          "Microsoft DP-900"
+        ]
+      }
+    },
+    "experience": {
+      "entries": [
+        {
+          "date": "2022-Present",
+          "role": "Data Scientist - Artificial Intelligence",
+          "company": "IBM",
+          "description": "- Content Generation System (CGS) : Spearheaded the development of an automated product that cut down regulatory approval document processing time by 80%, reducing it from several months to just a few weeks. Deployed successfully on the client's Azure Cloud, accelerating regulatory workflows.\n- Chat Virtual Agent Pilot : Contributed to the development of a Virtual Agent that enhanced digital self-service using WatsonX Assistant and LLMs. Key achievements include a 50% reduction in the number of clicks required to find relevant information on the website, improving user experience and support efficiency.\n- GenAI ABCOrder : Co-developed a Generative AI solution that increased order placement efficiency by 25%. Delivered impactful features like automated data extraction, product description enhancements, and a RAG-powered virtual assistant, significantly optimizing the customer experience.",
+          "skills": [
+            "Generative AI",
+            "LLMS",
+            "RAG",
+            "Python",
+            "Azure",
+            "FastAPI",
+            "Docker"
+          ]
+        },
+        {
+          "date": "2021-2022",
+          "role": "Software Engineer",
+          "company": "Webkul Software Pvt. Ltd.",
+          "description": "- Engineered connectors that automated the integration of accounting software (FreshBooks, Xero, Zoho) with odoo ERP, reducing manual data entry time by 50% .\n- Implemented real-time data synchronization between Odoo ERP and e-commerce platforms (Prestashop), enhancing data accuracy and improving transaction processing speed by 20% .\n- Optimized system performance through debugging and feature enhancements, increasing overall platform efficiency by 10% .",
+          "skills": [
+            "Python",
+            "Django",
+            "SQL",
+            "API",
+            "Azure"
+          ]
+        },
+        {
+          "date": "2019-2021",
+          "role": "Software Engineer",
+          "company": "Chadha Industries Pvt. Ltd.",
+          "description": "- Developed and launched web applications on Azure Cloud, which reduced operational costs by 20% due to optimized cloud resource allocation and performance.\n-Customized Odoo ERP modules, leading to 25% improvement in business process efficiency and tailored functionality to meet specific business needs.\n-Built and deployed microservices-based web applications, ensuring seamless integration with REST APIs, improving response times and scalability by 30% .",
+          "skills": [
+            "Python",
+            "SQL",
+            "Django",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "API"
+          ]
+        }
+      ]
+    },
+      "projects": {
+      "entries": [
+        {
+          "image": "portfolio_media/Dashboard.png",
+          "title": "AI Content Generation Platform",
+          "tags": [
+            "Data Preprocessing",
+            "Generative AI",
+            "Multiagents",
+            "Autogen",
+            "Weaviate",
+            "MilvusDB",
+            "OpenAI GPT",
+            "Langchain",
+            "Azure OpenAI",
+            "Langgraph"
+          ],
+          "description": "End to End development of an automated product that cut down regulatory approval document processing time by 80%, reducing it from several months to just a few weeks. Deployed successfully on the client's Azure Cloud, accelerating regulatory workflows.",
+          "github_link": "https://github.com/username/project-repo"
+        },
+        {
+          "image": "portfolio_media/Final Dashboard.png",
+          "title": "SpaceX Falcon 9 First Stage Landing Prediction",
+          "tags": [
+            "Data Collection",
+            "Data Preprocessing",
+            "Data Cleaning",
+            "Model Building",
+            "Model Evaluation",
+            "Model Deployment"
+          ],
+          "description": "Developed a machine learning model to predict the landing outcome of SpaceX Falcon 9 first stage using flight data. Achieved an accuracy of 94% by training the model on 1000+ flight records.",
+          "expanded_content": "In this capstone, we will predict if the Falcon 9 first stage will land successfully. SpaceX advertises Falcon 9 rocket launches on its website with a cost of 62 million dollars; other providers cost upward of 165 million dollars each, much of the savings is because SpaceX can reuse the first stage.\nIf we can determine if the first stage will land, we can determine the cost of a launch. This information can be used if an alternate company wants to bid against SpaceX for a rocket launch.",
+          "github_link": "https://github.com/sharmatriloknath/SpaceX-Falcon-9-first-stage-Landing-Prediction"
+        },
+        {
+          "image": "portfolio_media/Price-Predictor-1.png",
+          "title": "Laptop Price Predictor",
+          "tags": [
+            "Data Cleaning",
+            "Regression Models",
+            "Classification Models",
+            "EDA",
+            "Streamlit",
+            "Model Evaluation"
+          ],
+          "description": "In this project we are creating a laptop Price predictor with the help of Machine Learning Models.",
+          "expanded_content": "We have used several Models:\n<ul><li>Linear Regression</li><li>Ridge & Lasso</li><li>SVMRegressor</li><li>DecisionTreeRegressor</li><li>RandomForestRegressor</li><li>Boosting: AdaBoost, Gradient Boost, XGBoost</li><li>Ensemble: Voting Regressor, Stacking Regressor</li></ul>",
+          "github_link": "https://github.com/sharmatriloknath/Laptop-Price-Predictor"
+        }
+      ]
+    },
+      "skills_section": {
+        "programming_languages":[
+            {"skill": "Python", "icon": "fab fa-python"},
+            {"skill": "SQL", "icon": "fas fa-database"},
+            {"skill": "JavaScript", "icon": "fab fa-js"},
+            {"skill": "Java", "icon": "fab fa-java"}
+        ],
+        
+        "ml_ai":[
+            {"skill": "Machine Learning", "icon": "fas fa-robot"},
+            {"skill": "Deep Learning", "icon": "fas fa-brain"},
+            {"skill": "NLP", "icon": "fas fa-comment-dots"},
+            {"skill": "Computer Vision", "icon": "fas fa-eye"},
+            {"skill": "Time Series", "icon": "fas fa-chart-line"},
+            {"skill": "Reinforcement Learning", "icon": "fas fa-chess"},
+            {"skill": "Generative AI", "icon": "fas fa-magic"}
+        ],
+        
+        "frameworks_tools":[
+            {"skill": "PyTorch", "icon": "fas fa-fire"},
+            {"skill": "Autogen", "icon": "fas fa-cogs"},
+            {"skill": "Langchain", "icon": "fas fa-link"},
+            {"skill": "RAG", "icon": "fas fa-layer-group"},
+            {"skill": "Pandas", "icon": "fas fa-table"},
+            {"skill": "Scikit-learn", "icon": "fas fa-microscope"},
+            {"skill": "Matplotlib", "icon": "fas fa-chart-bar"},
+            {"skill": "HuggingFace", "icon": "fas fa-smile-beam"},
+            {"skill": "FastAPI", "icon": "fas fa-bolt"},
+            {"skill": "Django", "icon": "fab fa-python"},
+            {"skill": "Spark", "icon": "fas fa-broadcast-tower"}
+        ],
+        
+        "devops_cloud":[
+            {"skill": "Azure", "icon": "fab fa-microsoft"},
+            {"skill": "GCP", "icon": "fab fa-google"},
+            {"skill": "Docker", "icon": "fab fa-docker"},
+            {"skill": "Kubernetes", "icon": "fas fa-dharmachakra"},
+            {"skill": "CI/CD", "icon": "fas fa-sync-alt"},
+            {"skill": "MLflow", "icon": "fas fa-project-diagram"}
+        ]        
+    },
+    "contact": {
+      "location": "New Delhi, India",
+      "email": "sharmatriloknath336@gmail.com",
+      "phone": "+91 6005449427",
+      "linkedin": "https://www.linkedin.com/in/trilok-nath-171072183/",
+      "youtube": "https://www.youtube.com/@talkwithdata",
+      "github": "https://github.com/sharmatriloknath"
+    },
+     "footer": {
+        "description": "Turning data into intelligent solutions through innovative AI applications and advanced analytics."
+     }
+  }

@@ -1,0 +1,52 @@
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-content">
+                <div class="skills-category fade-in-up">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-list">
+                        {% for skill in data.skills_section.programming_languages %}
+                        <div class="skill-item">
+                            <span class="skill-icon"><i class="{{ skill.icon }}"></i></span>
+                            <span>{{ skill.skill }}</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="skills-category fade-in-up delay-1">
+                    <h3>Machine Learning & AI</h3>
+                    <div class="skills-list">
+                        {% for skill in data.skills_section.ml_ai %}
+                        <div class="skill-item">
+                            <span class="skill-icon"><i class="{{ skill.icon }}"></i></span>
+                            <span>{{ skill.skill }}</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="skills-category fade-in-up delay-2">
+                    <h3>Frameworks & Tools</h3>
+                    <div class="skills-list">
+                        {% for skill in data.skills_section.frameworks_tools %}
+                        <div class="skill-item">
+                            <span class="skill-icon"><i class="{{ skill.icon }}"></i></span>
+                            <span>{{ skill.skill }}</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="skills-category fade-in-up delay-3">
+                    <h3>DevOps & Cloud</h3>
+                    <div class="skills-list">
+                        {% for skill in data.skills_section.devops_cloud %}
+                        <div class="skill-item">
+                            <span class="skill-icon"><i class="{{ skill.icon }}"></i></span>
+                            <span>{{ skill.skill}}</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,107 @@
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+        <!-- Dynamic background with data visualization particles -->
+        <div class="data-particles"></div>
+        <div class="data-grid"></div>
+        </div>
+        <div class="container">
+        <div class="hero-content">
+            <div class="hero-text fade-in-up">
+            <div class="hero-heading-wrapper">
+                <div class="badge-container">
+                <span class="badge">{{ data.hero.badge }}</span>
+                </div>
+                <h1 class="hero-title">
+                <span class="hero-static-text">Hi! I'm </span>
+                <span class="hero-name">{{ data.hero.name }}</span>
+                </h1>
+            </div>
+            <div class="hero-role-wrapper">
+                <h2 class="hero-role">
+                <span class="hero-static-text">I'm </span>
+                <span id="typewriter"></span><span class="cursor">|</span>
+                </h2>
+            </div>
+            
+            <!-- Interactive Terminal UI -->
+            <div class="terminal-container">
+                <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="terminal-button red"></span>
+                    <span class="terminal-button yellow"></span>
+                    <span class="terminal-button green"></span>
+                </div>
+                <div class="terminal-title">
+                    <span class="terminal-user">user@datascience</span>:<span class="terminal-path">~/portfolio</span>$ cat about.txt
+                </div>
+                </div>
+                <div class="terminal-content">
+                <div class="terminal-text typing-animation">
+                    <p class="hero-desc">{{ data.hero.terminal_description }}</p>
+                </div>
+                <div class="terminal-prompt">
+                    <span class="terminal-user">user@datascience</span>:<span class="terminal-path">~/portfolio</span>$ <span class="blinking-cursor">|</span>
+                </div>
+                </div>
+            </div>
+            
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Portfolio</a>
+                <a href="#contact" class="btn btn-outline">Let's Connect</a>
+            </div>
+            </div>
+            
+            <!-- Resume PDF Viewer -->
+            <div class="hero-img fade-in-up delay-2">
+            <div class="resume-container">
+                <div class="resume-header">
+                    <div class="resume-title">
+                        <span class="resume-title-text">My Resume</span>
+                    </div>
+                    <div class="resume-controls">
+                    <button class="resume-control" id="view-fullscreen" title="Fullscreen">
+                        <i class="fas fa-expand"></i>
+                    </button>
+                    <button class="resume-control" id="download-pdf" title="Download">
+                        <i class="fas fa-download"></i>
+                    </button>
+                    </div>
+                </div>
+                <div class="resume-preview">
+                    <iframe id="resumeViewer" src="{{data.hero.resume_pdf_url }}" frameborder="0"></iframe>
+                </div>
+                </div>
+            
+            <div class="floating-shapes">
+                <div class="floating-shape shape-1">
+                <svg viewBox="0 0 30 30">
+                    <circle cx="15" cy="15" r="12" fill="rgba(58, 134, 255, 0.1)" stroke="rgba(58, 134, 255, 0.6)" stroke-width="2"/>
+                    <circle cx="15" cy="15" r="6" fill="rgba(58, 134, 255, 0.3)"/>
+                </svg>
+                </div>
+                <div class="floating-shape shape-2">
+                <svg viewBox="0 0 30 30">
+                    <rect x="5" y="5" width="20" height="20" rx="4" fill="rgba(131, 56, 236, 0.1)" stroke="rgba(131, 56, 236, 0.6)" stroke-width="2"/>
+                    <rect x="10" y="10" width="10" height="10" rx="2" fill="rgba(131, 56, 236, 0.3)"/>
+                </svg>
+                </div>
+                <div class="floating-shape shape-3">
+                <svg viewBox="0 0 30 30">
+                    <polygon points="15,2 28,25 2,25" fill="rgba(238, 78, 139, 0.1)" stroke="rgba(238, 78, 139, 0.6)" stroke-width="2"/>
+                    <polygon points="15,12 21,22 9,22" fill="rgba(238, 78, 139, 0.3)"/>
+                </svg>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+        <div class="mouse">
+            <div class="mouse-wheel"></div>
+        </div>
+        <div class="scroll-text">Scroll Down</div>
+        </div>
+    </section>

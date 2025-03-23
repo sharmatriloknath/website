@@ -1,0 +1,38 @@
+   <!-- Projects Section -->
+   <section class="projects" id="projects">
+    <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            {% for project in data.projects.entries %}
+            <div class="project-card fade-in-up {% if loop.index0 % 3 == 0 %}{% endif %}">
+                <img src="{{ project.image }}" alt="{{ project.title }}" class="project-img">
+                <div class="project-content">
+                    <h3 class="project-title">{{ project.title }}</h3>
+                    <div class="project-tags">
+                        {% for tag in project.tags %}
+                        <span class="project-tag">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="project-desc-container">
+                        <p class="project-desc">{{ project.description }}</p>
+                        {% if project.expanded_content %}
+                        <div class="expanded-content">
+                            {{ project.expanded_content | safe }}
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="project-footer">
+                        <div class="expand-indicator">
+                            <span class="expand-icon">+</span>
+                            <span class="collapse-icon">−</span>
+                        </div>
+                        <a href="{{ project.github_link }}" class="github-link" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
