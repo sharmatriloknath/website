@@ -12,30 +12,30 @@
 </head>
 <body>
     <!-- Navigation -->
-    {% include 'navbar.html' %}  <!-- Assuming navbar is static -->
+    {% include 'templates/navbar.html' %}  <!-- Assuming navbar is static -->
 
     <!-- Hero Section -->
-    {% include 'hero.html' %}
+    {% include 'templates/hero.html' %}
 
     <!-- About Section -->
-    {% include 'about.html' %}
+    {% include 'templates/about.html' %}
 
     
     <!-- Experience Section -->
-    {% include 'experience.html' %}
+    {% include 'templates/experience.html' %}
 
 
     <!-- Projects Section -->
-    {% include 'project.html' %}
+    {% include 'templates/project.html' %}
 
     <!-- Skills Section -->
-    {% include 'skills.html' %}
+    {% include 'templates/skills.html' %}
 
     <!-- Contact Section -->
-    {% include 'contact.html' %}
+    {% include 'templates/contact.html' %}
 
     <!-- Footer -->
-    {% include 'footer.html' %}
+    {% include 'templates/footer.html' %}
 
     <script>
         // Navigation Toggle
@@ -249,7 +249,7 @@
             const resumeViewer = document.getElementById('resumeViewer');
             
             // Example PDF URL - replace with your actual resume PDF
-            const resumePdfUrl = "C:/Users/003EPO744/Downloads/Trilok Nath CV.pdf";
+            const resumePdfUrl = "portfolio_media/Trilok Nath CV.pdf";
             
             // Initialize the PDF viewer with your resume URL
             resumeViewer.src = resumePdfUrl;

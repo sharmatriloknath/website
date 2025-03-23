@@ -2,11 +2,11 @@ import json
 from jinja2 import Environment, FileSystemLoader
 
 # Load JSON data
-with open('website_json.json', 'r') as f:
+with open('website_json.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Configure Jinja2
-env = Environment(loader=FileSystemLoader('.'))  # '.' means current directory
+env = Environment(loader=FileSystemLoader(['.', "templates"]))  # '.' means current directory
 template = env.get_template('index_template.html') # main html file 
 
 # Render the template
